@@ -24,7 +24,7 @@
     color: white;
     max-width: 632px;
     max-height: 190px;
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
     margin-top: 16px;
 }
 
@@ -33,7 +33,7 @@
     font-size: 32px;
     font-weight: 400;
     color: white;
-    border: 2px solid rgb(136, 255, 0);
+    /* border: 2px solid rgb(136, 255, 0); */
     margin-top: 177px;
 }
 
@@ -43,13 +43,15 @@
     margin: 0 auto;
     /* Important easiest way to set a block in the middle*/
     margin-top: 30px;
-    border: 2px solid red;
     /*As a beginner always define borders for better understanding*/
     /* background-image: linear-gradient(to top,rgba(7, 2, 17, 1.00)); */
     background-image: url(../new-year-offer-resources/images/Banner\ Image.png);
+    background-color: rgba(0, 0, 0, 0.4);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    background-blend-mode: overlay; /* Ei image er sathe amra ektah bg cl blend korte chai & blend tah hobe upore or overlay */
+    border-radius: 13px;
 }
 
 .banner-content {
@@ -58,4 +60,55 @@
     align-items: center; /*vertically align er jonno use kore eta, Justify-content: center row borabor thakle use hoi, Note: height thaka lagbe*/
     justify-content: center;
     text-align: center;
+}
+
+/* Second Section Design Starts */
+.second-section-container{
+    border:1px solid red;
+    width: 802px;
+    height: 806px;
+    margin: 0 auto;
+    margin-top: 120px;
+    
+}
+.second-title{
+    font-size: 88px;
+    font-weight: 800;
+    color: red;
+    text-align: center;
+    max-width: 383px;
+    max-height: 106px;
+}
+.second-description{
+    font-size: 24px;
+    font-weight: 500;
+    color: red;
+    text-align: center;
+    max-width: 397px;
+    max-height: 29px;
+    margin-top: 49px;
+    border: 1px solid red;
+}
+.second-description2{
+    font-size: 48px;
+    font-weight: 800;
+    color:black;
+    text-align: center;
+    max-width: 410px;
+    margin-top: 16px;
+
+}
+.second-image{
+    margin: 0 auto;
+    border: 1px solid red;
+    text-align: center;
+    
+}
+.second-section-content{
+    
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    
 }
