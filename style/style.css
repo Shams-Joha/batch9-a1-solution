@@ -50,28 +50,32 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-blend-mode: overlay; /* Ei image er sathe amra ektah bg cl blend korte chai & blend tah hobe upore or overlay */
+    background-blend-mode: overlay;
+    /* Ei image er sathe amra ektah bg cl blend korte chai & blend tah hobe upore or overlay */
     border-radius: 13px;
 }
 
 .banner-content {
     display: flex;
-    flex-direction: column; /* upore niche set kore, row dile pashe set korto*/
-    align-items: center; /*vertically align er jonno use kore eta, Justify-content: center row borabor thakle use hoi, Note: height thaka lagbe*/
+    flex-direction: column;
+    /* upore niche set kore, row dile pashe set korto*/
+    align-items: center;
+    /*vertically align er jonno use kore eta, Justify-content: center row borabor thakle use hoi, Note: height thaka lagbe*/
     justify-content: center;
     text-align: center;
 }
 
 /* Second Section Design Starts */
-.second-section-container{
+.second-section-container {
     /* border:1px solid red; */
     width: 802px;
     height: 806px;
     margin: 0 auto;
     margin: 120px auto;
-    
+
 }
-.second-section-content h2{
+
+.second-section-content h2 {
     font-size: 88px;
     font-weight: 800;
     color: red;
@@ -80,7 +84,8 @@
     max-height: 106px;
     /* border: 1px solid red; */
 }
-.second-section-content p{
+
+.second-section-content p {
     font-size: 24px;
     font-weight: 500;
     color: red;
@@ -90,39 +95,180 @@
     margin-top: 49px;
     /* border: 1px solid red; */
 }
-.second-section-content h3{
+
+.second-section-content h3 {
     font-size: 48px;
     font-weight: 800;
-    color:black;
+    color: black;
     text-align: center;
     max-width: 420px;
     margin-top: 16px;
     /* border: 1px solid red; */
 
 }
-.second-image{
+
+.second-image {
     margin: 0 auto;
     border: 1px solid red;
     text-align: center;
-    
+
 }
-.second-section-content{
-    
-    display: flex; 
+
+.second-section-content {
+
+    display: flex;
     flex-direction: column;
-    justify-content: center;                   
+    justify-content: center;
     align-items: center;
     /* border: 1px solid rgb(38, 0, 255); */
-    
+
 }
-.new-year-photo{
+
+.new-year-photo {
     margin-top: 47px;
     width: 805px;
     height: 501px;
 }
-.new-year-photo img{
+
+.new-year-photo img {
     /* width: 805px;
     height: 501px;  better option to do the lower option always- Child takes width & height based on parent*/
     width: 100%;
     height: 100%;
+}
+
+/* Midnight party section Design */
+
+.midnight-party-container {
+    width: 1320px;
+    height: 600px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    display: flex;
+    background-image: url(/new-year-offer-resources/images/Vectorrr.png);
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: overlay;
+    margin-bottom: 120px;
+
+}
+
+.leftside-content {
+    width: 50%;
+    /*Amra 2 tah vag e vag korbo section take*/
+    height: 600px;
+    /*parent er height milaye dise*/
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftside-content h1 {
+    color: rgb(255, 255, 255);
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 11%;
+    text-align: left;
+    margin-left: 70px;
+}
+
+.leftside-content p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-left: 126px;
+}
+
+.leftside-content span {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    width: 103px;
+    margin-top: 40px;
+    margin-right: 200px;
+
+}
+
+.rightside-content {
+    width: 50%;
+    /*Amra 2 tah vag e vag korbo section take*/
+    height: 600px;
+    /*parent er height milaye dise*/
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Event Details style */
+.event-details-container {
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+    width: 1320px;
+    height: 482px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    margin-bottom: 120px;
+}
+
+.event-content {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid blue; */
+    height: 482px;
+
+}
+
+.event-content p {
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+    width: 549px;
+    height: 168px;
+    margin-bottom: 48px;
+}
+
+.event-content span {
+    color: red;
+}
+
+.event-content button {
+
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 8px;
+    background: rgb(255, 0, 0);
+    padding: 16px 32px 16px 32px;
+}
+
+/* Event Details style End */
+
+
+/* New best offer style */
+
+.new-best-offer{
+
 }
